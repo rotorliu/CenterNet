@@ -21,7 +21,8 @@
 
         "chunk_sizes": [1],
 
-        "data_dir": "/workspace/datasets"
+        "data_dir": "/workspace/datasets",
+        "result_dir": "/workspace/training_dir"
     },
     
     "db": {
