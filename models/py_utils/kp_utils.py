@@ -75,7 +75,7 @@ def _topk(scores, K=20):
 
 def _decode(
     tl_heat, br_heat, tl_tag, br_tag, tl_regr, br_regr, ct_heat, ct_regr, 
-    K=100, kernel=1, ae_threshold=1, num_dets=1000
+    K=100, kernel=1, ae_threshold=1, num_dets=12
 ):
     batch, cat, height, width = tl_heat.size()
 
